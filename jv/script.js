@@ -21,9 +21,9 @@ if (check) {
 
 var userNumber = Math.floor(Math.random() *6) +1 ;
 var cpuNumber = Math.floor(Math.random()* 6) +1;
-document.getElementById('result1').innerHTML += '<br/>' + userNumber + ' ' + cpuNumber + '<br/>' ;
+document.getElementById('result1').innerHTML += '<br/>' + userNumber + "----" + cpuNumber + '<br/>' ;
 if(userNumber > cpuNumber) {
-    document.getElementById('result1').innerHTML += ' hai vinto' +  ;
+    document.getElementById('result1').innerHTML += ' hai vinto'   ;
 }else if (userNumber < cpuNumber) {
     document.getElementById('result1').innerHTML += ' il computer ha vinto';
 }else{
